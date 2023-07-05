@@ -1,6 +1,5 @@
 import streamlit as st
 from transformers import pipeline
-from textblob import TextBlob
 
 # Set the page title
 st.title("Sentiment Analysis App")
