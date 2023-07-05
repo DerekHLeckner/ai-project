@@ -16,7 +16,7 @@ if st.button("Analyze"):
     sentiment = blob[0]
 
     # Determine sentiment label
-    sentiment_label = sentiment.label
+    # sentiment_label = sentiment.label
     # Display the sentiment analysis results
     st.write("Sentiment:", sentiment)
-    st.write("Sentiment Label:", sentiment_label)
+    # st.write("Sentiment Label:", sentiment_label)
