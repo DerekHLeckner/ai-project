@@ -13,10 +13,10 @@ classifier = pipeline('sentiment-analysis')
 if st.button("Analyze"):
     # Perform sentiment analysis
     blob = classifier(text)
-    sentiment = blob.sentiment.polarity
+    sentiment = blob[0]
 
     # Determine sentiment label
-    sentiment_label = sentiment[0].label
+    sentiment_label = sentiment.label
     # Display the sentiment analysis results
     st.write("Sentiment:", sentiment)
     st.write("Sentiment Label:", sentiment_label)
