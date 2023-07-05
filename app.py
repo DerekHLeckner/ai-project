@@ -5,7 +5,7 @@ from transformers import pipeline
 st.title("Sentiment Analysis App")
 
 # Create a textarea for user input
-text = st.text_area("Enter text")
+text = st.text_area("Enter text", value="This won't work!")
 
 classifier = pipeline('sentiment-analysis')
 # Create a button to perform sentiment analysis
