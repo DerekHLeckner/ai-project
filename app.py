@@ -18,5 +18,5 @@ if st.button("Analyze"):
     # Determine sentiment label
     # sentiment_label = sentiment.label
     # Display the sentiment analysis results
-    st.write("Sentiment:", sentiment)
-    # st.write("Sentiment Label:", sentiment_label)
+    st.write("Sentiment:", sentiment['score'])
+    st.write("Sentiment Label:", sentiment_label['label'])
