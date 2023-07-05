@@ -1,6 +1,3 @@
 steamlit
-opencv-python-headless
 numpy
 pandas
-easyocr
-Pillow
